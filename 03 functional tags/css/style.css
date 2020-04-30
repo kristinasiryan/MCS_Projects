@@ -1,4 +1,9 @@
 .header-container, #bio, section .section-text, section h2, #links  {
 	background: black;
-	color: white
+	color: white;
+}
+
+body {
+	background: BurlyWood;
+	color: #4B0082;
 }
