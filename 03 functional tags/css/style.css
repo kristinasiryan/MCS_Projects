@@ -2,8 +2,13 @@
 	background: black;
 	color: white;
 }
-
 body {
-	background: BurlyWood;
-	color: #4B0082;
+	background: DarkSlateGrey;
+	color: LightSalmon;
+}
+a {
+	color: Azure;
+}
+.main-text, li {
+	font-size: 25px;
 }
