@@ -1,0 +1,11 @@
+.header-container, #bio, section .section-text, section h2, #links  {
+	background: black;
+	color: whitesmoke;
+}
+body, a {
+	background: DarkSlateGrey;
+	color: LightSalmon;
+}
+.main-text, li {
+	font-size: 25px;
+}

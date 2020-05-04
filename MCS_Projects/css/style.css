@@ -1,0 +1,82 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@700&display=swap');
+
+.header	{
+	width: 1440px;
+	height: 200px;
+	background-color: indigo;
+	padding-left: 80px;
+}
+
+.name h1 {
+	color: white;
+	line-height: 200px;
+	font-style: normal;
+	font-size: 55px;
+	font-family: 'Merriweather', serif;
+}
+.content1 .img {
+	width: 1440px;
+	height: 1080px;
+	background-color: white;
+	background-image: url(../img/00.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-attachment: scroll;
+	padding-left: 80px;
+}
+.content1 .links {
+	width: 1440px;
+	height: 120px;
+	background-color: indigo;
+	padding-left: 80px;
+}	
+.links h2, .links h2 a {
+	color: white;
+	line-height: 120px;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 35px;
+	font-family: 'Merriweather', serif;
+}
+.content2 {
+	width: 1440px;
+	height: 1420px;
+	background-color: white;
+	padding-left: 80px;
+	padding-top: 60px;
+}
+.content2 .paragraph {
+	color: black;
+	line-height: 70px;
+	font-weight: lighter;
+	font-style: normal;
+	font-size: 50px;
+	font-family: 'Lora', serif;
+}
+footer {
+	width: 1440px;
+	height: 200px;
+	background-color: indigo;
+	padding-left: 80px;
+}
+.footer .logo2 {
+	width: 300px;
+	height: 120px;
+	background-image: url(../img/logo.png);
+	background-size: 220px;
+	background-repeat: no-repeat;
+	background-position: 0px 70px;
+	float: left;
+}
+.footer h2 {
+	color: white;
+	line-height: 200px;
+	font-weight: lighter;
+	font-style: normal;
+	font-size: 50px;
+	font-family: 'Merriweather', serif;
+	float:right;
+	padding-right: 70px
+}

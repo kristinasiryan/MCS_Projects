@@ -1,0 +1,11 @@
+@import url(normalize.css);
+
+body {
+	background: orangered;
+}
+
+.header-container h1 {
+	color: white;
+	font-weight: bold;
+	font-family: Helvetica;
+} 
