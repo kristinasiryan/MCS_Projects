@@ -1,6 +1,6 @@
 @import url(reset.css);
 
-body {
+.body {
 	width: 1440px;
 	background: white;
 }
