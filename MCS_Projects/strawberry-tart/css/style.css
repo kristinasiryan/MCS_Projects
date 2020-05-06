@@ -1,8 +1,7 @@
-@import url(normalize.css);
+@import url(reset.css);
 
 body {
 	background: white;
-	position: relative;
 }
 
 .header{
@@ -14,17 +13,13 @@ body {
 	color: white;
 	font-family: Helvetica;
 	font-size: 20px;
-	line-height: 23px;
-	position: absolute;
-	left: 20px;
-	top: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
 }
 .box1 {
 	width: 400px;
 	height: 800px;
-	position: absolute;
-	left: 70px;
-	top: 112px;
+	margin: 52px 50px 52px 70px;
 	border-radius: 30px;
 	box-sizing: border-box;
 	border: 5px solid #E5E000;
@@ -33,9 +28,7 @@ body {
 .box2 {
 	width: 400px;
 	height: 800px;
-	position: absolute;
-	left: 520px;
-	top: 112px;
+	margin: 52px 50px 52px 0px;
 	border-radius: 30px;
 	box-sizing: border-box;
 	border: 5px solid #E5E000;
@@ -44,59 +37,46 @@ body {
 .box3 {
 	width: 400px;
 	height: 800px;
-	position: absolute;
-	left: 970px;
-	top: 112px;
+	margin: 52px 70px 52px 0px;
 	border-radius: 30px;
 	box-sizing: border-box;
 	border: 5px solid #E5E000;
 	display: inline-block;
 }
 .title {
-	width: 207px;
-	height: 23px;
-	position: absolute;
-	left: 33px;
-	top: 33px;
+	margin-left: 33px;
+	margin-top: 33px;
 	color: black;
 	font-family: Helvetica;
+	font-weight: bold;
 	font-size: 20px;
-	line-height: 23px;
 }
 p {
-	width: 334px;
-	height: 670px;
-	position: absolute;
-	margin: 97px 33px 33px 33px;
+	margin: 41px 33px 33px 33px;
 	color: black;
 	font-family: Times New Roman;
 	font-size: 20px;
 	line-height: 23px;
 }
-.footer
-{
+.footer {
 	width: 1440px;
 	height: 60px;
 	background-color: #FE1A19;
-	position: absolute;
-	top: 964px;
 }
 .footer-container1 {
 	color: white;
 	font-family: Helvetica;
 	font-size: 20px;
-	line-height: 23px;
-	position: absolute;
-	left: 20px;
-	top: 20px;
+	display: inline-block;
+	padding-top: 20px;
+	padding-left: 20px;
 }
 .footer-container2 {
 	color: white;
 	font-family: Helvetica;
 	font-size: 20px;
-	line-height: 23px;
-	position: absolute;
-	right: 20px;
-	top: 20px;
+	display: inline-block;
+	padding-top: 20px;
+	padding-right: 20px;
 	float: right;
 }
