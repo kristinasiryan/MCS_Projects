@@ -1,11 +1,11 @@
 @import url(reset.css);
 
 body {
+	width: 1440px;
 	background: white;
 }
 
 .header{
-	width: 1440px;
 	height: 60px;
 	background-color: #FE1A19;
 }
@@ -18,7 +18,6 @@ body {
 }
 .box1 {
 	width: 400px;
-	height: 800px;
 	margin: 52px 50px 52px 70px;
 	border-radius: 30px;
 	box-sizing: border-box;
@@ -27,7 +26,6 @@ body {
 }
 .box2 {
 	width: 400px;
-	height: 800px;
 	margin: 52px 50px 52px 0px;
 	border-radius: 30px;
 	box-sizing: border-box;
@@ -36,7 +34,6 @@ body {
 }
 .box3 {
 	width: 400px;
-	height: 800px;
 	margin: 52px 70px 52px 0px;
 	border-radius: 30px;
 	box-sizing: border-box;
@@ -51,15 +48,27 @@ body {
 	font-weight: bold;
 	font-size: 20px;
 }
-p {
-	margin: 41px 33px 33px 33px;
+h2.almond, h2.custard, h2.topping {
+	padding-left: 33px;
+	color: black;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+h2.tart {
+	padding-left: 33px;
+	padding-top: 41px;
+	color: black;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+ul {
+	margin: 0px 33px 33px 33px;
 	color: black;
 	font-family: Times New Roman;
 	font-size: 20px;
 	line-height: 23px;
 }
 .footer {
-	width: 1440px;
 	height: 60px;
 	background-color: #FE1A19;
 }
