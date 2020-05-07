@@ -16,6 +16,9 @@
 	padding-left: 20px;
 	padding-top: 20px;
 }
+main {
+	font-size: 0px;
+}
 .box1 {
 	width: 400px;
 	margin: 52px 50px 52px 70px;
