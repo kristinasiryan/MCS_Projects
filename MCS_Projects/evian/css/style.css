@@ -1,0 +1,177 @@
+@import url(reset.css);
+
+body {
+	width: 1440px;
+	background: white;
+}
+.header-container {
+	width: 1440px;
+	height: 140px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+}
+div.title {
+	width: 220px;
+	display: flex;
+	justify-content: center;
+}
+h2.evian {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: #E50043;
+}
+ul.links {
+	width: 410px;
+	margin-right: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.links li, .links li a {
+	font-family: Arial;
+	font-size: 50px;
+	color: #E50043;
+}
+div.hero-image {
+	padding-top: 140px;
+}
+div.hero-text {
+	height: 950px;
+	background-image: url(../img/evian_logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+.hero-text h1 {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	align-self: center;
+	color: #E50043;
+}
+.main-container {
+	height: 2123px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.water {
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+}
+.water-text {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 24px;
+}
+h1, p {
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+}
+.bottles {
+	width: 1040px;
+	height: 963px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.part1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.bottle1{
+	width: 280px;
+	height: 863px;
+	background-image: url(../img/evian1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bottle2{
+	width: 280px;
+	height: 863px;
+	background-image: url(../img/evian2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bottle3{
+	width: 280px;
+	height: 863px;
+	background-image: url(../img/evian3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.part2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.part2 div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.part2 h1, .part2 p {
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-self: center;
+}
+.composition {
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.mini-logo {
+	width: 101px;
+	height: 220px;
+	background-image: url(../img/evian_mini.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.composition-text {
+	width: 749px;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer {
+	height: 140px;
+	background-color: #F8BFC7;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.footer div {
+	font-family: Arial;
+	font-size: 50px;
+	color: white;
+}
