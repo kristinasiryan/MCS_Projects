@@ -52,7 +52,7 @@ h2, p {
 	margin-left: 33px;
 	margin-right: 33px;
 }
-ul, ul.instructions {
+ul {
 	margin: 0px 33px 30px;
 }
 ul.instructions li {
