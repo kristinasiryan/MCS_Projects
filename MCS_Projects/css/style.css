@@ -6,6 +6,7 @@
 	height: 200px;
 	background-color: indigo;
 	padding-left: 80px;
+	padding-right: 80px;
 }
 
 .name h1 {
@@ -25,12 +26,14 @@
 	background-position: 0px 0px;
 	background-attachment: scroll;
 	padding-left: 80px;
+	padding-right: 80px;
 }
 .content1 .links {
 	width: 1440px;
 	height: 120px;
 	background-color: indigo;
 	padding-left: 80px;
+	padding-right: 80px;
 }	
 .links h2, .links h2 a {
 	color: white;
@@ -45,6 +48,7 @@
 	height: 1420px;
 	background-color: white;
 	padding-left: 80px;
+	padding-right: 80px;
 	padding-top: 60px;
 }
 .content2 .paragraph {
@@ -60,6 +64,7 @@ footer {
 	height: 200px;
 	background-color: indigo;
 	padding-left: 80px;
+	padding-right: 80px;
 }
 .footer .logo2 {
 	width: 300px;

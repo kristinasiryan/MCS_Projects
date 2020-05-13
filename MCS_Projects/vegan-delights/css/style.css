@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+html {
+	width: 100vw;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+.header {
+	height: 160px;
+	background-color: thistle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5rem;
+}
+.main {
+	background-color: white;
+	display: flex;
+	margin: 70px;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.column {
+	width: calc((100% - 100px)/3);
+	border: 2px solid thistle; 
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+.image {
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%; 
+}
+.image.one {
+	background-image: url(../img/rolls.jpg);
+}
+.image.two {
+	background-image: url(../img/fudge.jpg);
+}
+.image.three {
+	background-image: url(../img/tahini.jpg);
+}
+h1 {
+	font-weight: bold;
+	margin: 30px 33px;
+}
+.bold {
+	margin: 30px 33px;
+}
+h2, p {
+	margin-left: 33px;
+	margin-right: 33px;
+}
+ul, ul.instructions {
+	margin: 0px 33px 30px;
+}
+ul.instructions li {
+	margin-bottom: 30px;
+}
+.footer {
+	height: 160px;
+	background-color: thistle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5rem;
+}
