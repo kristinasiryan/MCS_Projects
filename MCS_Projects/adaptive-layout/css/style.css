@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+html {
+	width: 414px;
+	font-size: 25px;
+}
+header {
+	height: 100px;
+	background-color: #0000FF;
+	display: flex;
+	align-items: center;
+	font-family: Helvetica;
+	color: white;
+	padding-left: 30px;
+}
+main {
+	height: 824px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: center;
+}
+div {
+	display: flex;
+	flex-direction: column;
+}
+.column {
+	width: 350px;
+	height: 175px;
+	border: 5px solid black;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+footer {
+	height: 100px;
+	background-color: #0000FF;
+	display: flex;
+	align-items: center;
+	font-family: Helvetica;
+	color: white;
+	padding-left: 30px;
+}
+
+@media screen and (min-width: 600px) {
+	html {
+	width: 736px
+	}
+	main {
+		flex-direction: row;
+		font-size: 1.2rem;
+	}
+}
