@@ -1,7 +1,6 @@
 @import url(reset.css);
 
 html {
-	width: 415px;
 	font-size: 25px;
 }
 header {
@@ -47,12 +46,8 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
-	html {
-	width: 740px
-	}
 	main {
 		flex-direction: row;
 		font-size: 1.2rem;
-
 	}
 }
