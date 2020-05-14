@@ -1,5 +1,7 @@
 @import url(reset.css);
-
+* {
+	box-sizing: border-box;
+}
 html {
 	width: 100vw;
 	font-size: 20px;
@@ -19,15 +21,14 @@ html {
 	margin: 70px;
 	justify-content: space-between;
 	align-items: flex-start;
+	min-width: min-content
 }
 .column {
 	width: calc((100% - 100px)/3);
 	border: 2px solid thistle; 
 	border-radius: 10px;
-	box-sizing: border-box;
 }
 .image {
-	height: 600px;
 	background-size: cover;
 	background-position: center;
 	padding-bottom: 100%; 
