@@ -30,14 +30,16 @@
 }
 .content1 .links {
 	width: 1440px;
-	height: 120px;
+	height: 160px;
+	display: flex;
+	align-items: center;
 	background-color: indigo;
 	padding-left: 80px;
 	padding-right: 80px;
 }	
 .links h2, .links h2 a {
 	color: white;
-	line-height: 120px;
+	line-height: 40px;
 	font-weight: bold;
 	font-style: normal;
 	font-size: 25px;
