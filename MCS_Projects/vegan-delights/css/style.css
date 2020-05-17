@@ -1,5 +1,5 @@
 @import url(reset.css);
-* {
+* { /* звездочка * задает свойства сразу для всех элементов*/
 	box-sizing: border-box;
 }
 html {
