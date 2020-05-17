@@ -5,7 +5,7 @@
 	min-width: min-content;
 }
 body {
-	width: 400px;
+	width: 800px;
 }
 header {
 	height: 80px;
@@ -47,7 +47,7 @@ li {
 	display: flex;
 	position: relative;
 	bottom: 525px;
-	left: 50px;
+	left: 140px;
 }
 form {
 	display: flex;
