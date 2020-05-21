@@ -46,6 +46,10 @@ li:hover {
 	width: 300px;
 	background-color: red;
 }
+.news:active {
+	width: 50px;
+	background-color: red;
+}
 .footer {
 	display: flex;
 	justify-content: center;
