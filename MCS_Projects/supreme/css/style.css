@@ -21,7 +21,7 @@ body {
 	width: 320px;
 	height: 100px;
 	background-size: cover;
-	position: center;
+	background-position: center;
 }
 .date {
 	font-size: 20px;
@@ -46,7 +46,11 @@ li:hover {
 	width: 300px;
 	background-color: red;
 }
-.news:active {
+a {
+	color: white;
+	text-decoration: none;
+}
+a:active {
 	width: 50px;
 	background-color: red;
 }
