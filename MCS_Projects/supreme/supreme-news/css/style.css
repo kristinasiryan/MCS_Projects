@@ -31,7 +31,6 @@ body {
 	margin-top: 50px;
 }
 .main {
-	width: 420px;
 	display: flex;
 	margin-top: 60px;
 }
@@ -49,12 +48,14 @@ body {
 .image {
 	margin-right: 10px;
 	padding-top: 40px;
+	width: 420px;
 }
 .order {
 	margin-top: 50px;
 	text-align: center;
 }
 .text {
+	width: 420px;
 	margin: 20px 10px 10px;
 }
 .text p {
@@ -87,7 +88,7 @@ li {
 	background-color: red;
 }
 .long:hover {
-	width: 300px;
+	width: 294px;
 	background-color: red;
 }
 @media screen and (min-width: 600px) {
@@ -100,6 +101,12 @@ li {
 	}
 	.header {
 	margin-top: 0px;
+	margin: auto;
+	}
+	.main {
+		width: 410px;
+		margin: auto;
+		margin-top: 60px;
 	}
 	.content {
 		display: flex;
