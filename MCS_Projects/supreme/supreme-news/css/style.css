@@ -34,9 +34,6 @@ body {
 	display: flex;
 	margin-top: 60px;
 }
-.content {
-	width: 790px;
-}
 .img {
 	background-image: url(../img/sup-img.png);
 	width: 390px;
@@ -46,8 +43,7 @@ body {
 	margin: 10px;
 }
 .image {
-	margin-right: 10px;
-	padding-top: 40px;
+	padding-top: 30px;
 	width: 420px;
 }
 .order {
@@ -56,7 +52,7 @@ body {
 }
 .text {
 	width: 420px;
-	margin: 20px 10px 10px;
+	margin: 40px 10px 10px;
 }
 .text p {
 	font-size: 20px;
@@ -66,12 +62,12 @@ body {
 	font-size: 25px;
 	line-height: 37px;
 	padding-bottom: 25px;
+	font-weight: bold;
 }
 .archive {
 	margin-top: 20px;
 }
 .footer {
-	justify-content: center;
 	margin-top: 100px;
 	margin-bottom: 50px;
 }
@@ -80,8 +76,7 @@ body {
 	line-height: 30px;
 }
 li {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 10px;
 }
 .archive:hover, li:hover {
 	width: 50px;
@@ -93,18 +88,17 @@ li {
 }
 @media screen and (min-width: 600px) {
 	body {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.header {
-	margin-top: 0px;
-	margin: auto;
+		margin: auto;
 	}
 	.main {
-		width: 410px;
+		width: 790px;
 		margin: auto;
 		margin-top: 60px;
 	}
@@ -112,7 +106,10 @@ li {
 		display: flex;
 	}
 	.text {
-	margin: 0px 0px 0px 10px;
+		margin: 0px 0px 0px 10px;
+	}
+	.text h2 {
+		font-weight: normal;
 	}
 	.footer {
 		margin-top: 125px;
@@ -120,5 +117,9 @@ li {
 	}
 	.footer ul {
 		display: flex;
+	}
+	li {
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
