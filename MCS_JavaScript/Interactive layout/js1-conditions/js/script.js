@@ -6,5 +6,5 @@ answer=parseInt(answer);
 if(answer>=0) {
 	number.innerHTML=answer;
 } else {
-	number.innerHTML= Math.abs(answer);
+	number.innerHTML= Number(answer); //or Math.abs(answer)
 }
