@@ -1,6 +1,15 @@
 
 const body=document.body;
 
+	d=prompt('Сколько у вас денег?');
+	y=prompt('Сколько вы купили яблок?');
+	x=prompt('Сколько вы купили батонов хлеба?');
+	s=prompt('Сколько стоит одно яблоко?');
+	k=prompt('Сколько стоит один батон хлеба?');
+	m=parseInt(y)*parseInt(s);
+	t=parseInt(x)*parseInt(k);
+	f=parseInt(d)>parseInt(m)+parseInt(t);
+
 function haveEnough(d, y, x, s, k, m, t, f) {
 	if(f==true) {
 	body.innerHTML='Вам хватает денег на покупки';
@@ -11,4 +20,4 @@ function haveEnough(d, y, x, s, k, m, t, f) {
 	};
 }
 
-haveEnough(prompt('Сколько у вас денег?'), prompt('Сколько вы купили яблок?'), prompt('Сколько вы купили батонов хлеба?'), prompt('Сколько стоит одно яблоко?'), prompt('Сколько стоит один батон хлеба?'), parseInt(y)*parseInt(s), parseInt(x)*parseInt(k), parseInt(d)>parseInt(m)+parseInt(t));
+haveEnough(d, y, x, s, k, m, t, f);
