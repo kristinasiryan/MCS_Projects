@@ -1,0 +1,18 @@
+@import url(reset.css);
+
+body {
+	background: azure;
+	width: 500px;
+}
+
+p {
+	margin: 10px;
+	padding: 10px;
+	line-height: 35px;
+	font-size: 30px;
+	position: relative;	
+}
+div {
+	height: 60px;
+	margin-left: 20px;
+}
