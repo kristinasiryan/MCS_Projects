@@ -6,20 +6,41 @@ window.onload = () => {
 const city = 'Moscow';
 console.log(city);
 const API = '9236af38cf3940a58e280994050a0043';
-const url = 'https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API;
-let xhr= new XMLHttpRequest();
+const url = 'https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API
 
+/*let xhr= new XMLHttpRequest();
 xhr.open('GET', url, false);
 xhr.send();
 if(xhr.status !=200) {
 	console.log(xhr.status +' '+xhr.statusText);
 } else {
 	var DATA = JSON.parse(xhr.responseText);
-}
+}*/
+
+
+/*fetch('https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API, {
+	method: 'POST',
+	headers: {
+		'Content-Type' : 'application/json'
+	}
+})
+.then(response => {
+	if (response.ok) {
+		console.log('success')
+		return response.json();
+	} else {
+		console.log('not successful')
+	}
+}) 
+.then(data => {
+	const DATA =  data.data[0].temp;
+	console.log(DATA)
+})
+.catch(error => console.log('error'))
+*/
 
 const form=document.forms[0];
 console.log(form[0]);
-
 
 class Person {
 	constructor (name) {
@@ -39,15 +60,30 @@ class Person {
 		return this.happiness
 	}
 	isSunny() {
-		console.log(DATA.data[0].temp);
-		if (DATA.data[0].temp>15) {
-			this.happiness++
-			console.log(this.happiness);
-		} else {
-			console.log(this.happiness);
+		fetch('https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API, {
+			method: 'POST',
+		})
+		.then(response => {
+			if (response.ok) {
+				console.log('success')
+				return response.json();
+			} else {
+				console.log('not successful')
+			}
+		}) 
+		.then(data => {
+			const DATA =  data.data[0].temp;
+			console.log(DATA)
+			if (DATA>15) {
+					this.happiness++
+					console.log(this.happiness);
+				} else {
+					console.log(this.happiness);
+				}
+		})
+		.catch(error => console.log('error'))
 		}
 	}
-}
 
 
 form.onsubmit = function(e) {
@@ -82,7 +118,6 @@ form.onsubmit = function(e) {
 		}
 
 		Individual.isSunny();
-
 
 		var person=document.querySelector('.personName');
 		var icon=document.querySelector('.icon');
