@@ -8,7 +8,10 @@ console.log(city);
 const API = '9236af38cf3940a58e280994050a0043';
 const url = 'https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API
 
-/*let xhr= new XMLHttpRequest();
+/*
+const url = 'https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API;
+let xhr= new XMLHttpRequest();
+let xhr= new XMLHttpRequest();
 xhr.open('GET', url, false);
 xhr.send();
 if(xhr.status !=200) {
@@ -18,23 +21,23 @@ if(xhr.status !=200) {
 }*/
 
 
-/*fetch('https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API, {
-	method: 'POST',
-	headers: {
-		'Content-Type' : 'application/json'
+/*fetch(
+	'https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API, 
+	{
+		method: 'GET',
+		credentials: 'same-origin'
 	}
-})
+)
 .then(response => {
 	if (response.ok) {
-		console.log('success')
+		console.log('success');
 		return response.json();
 	} else {
-		console.log('not successful')
+		console.log('not successful');
 	}
 }) 
-.then(data => {
-	const DATA =  data.data[0].temp;
-	console.log(DATA)
+.then(json => {
+	console.log(json.data[0].temp);
 })
 .catch(error => console.log('error'))
 */
@@ -60,20 +63,24 @@ class Person {
 		return this.happiness
 	}
 	isSunny() {
-		fetch('https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API, {
-			method: 'POST',
-		})
+		fetch(
+			'https://api.weatherbit.io/v2.0/current?city='+city+'&key='+API, 
+			{
+				method: 'GET',
+				credentials: 'same-origin'
+			}
+		)
 		.then(response => {
 			if (response.ok) {
-				console.log('success')
+				console.log('success');
 				return response.json();
 			} else {
-				console.log('not successful')
+				console.log('not successful');
 			}
 		}) 
-		.then(data => {
-			const DATA =  data.data[0].temp;
-			console.log(DATA)
+		.then(json => {
+			var DATA = json.data[0].temp;
+			console.log(DATA);
 			if (DATA>15) {
 					this.happiness++
 					console.log(this.happiness);
@@ -82,11 +89,10 @@ class Person {
 				}
 		})
 		.catch(error => console.log('error'))
-		}
 	}
 
-
-form.onsubmit = function(e) {
+}
+	form.onsubmit = function(e) {
 		e.preventDefault();
 		var n=form[1];
 		var m=form[2];
